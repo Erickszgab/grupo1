@@ -1,36 +1,26 @@
-# grupo 1 de projeto aplicado 
-toda a criação e desenvolvimento da loja ecormerce de roupas
-pelos alunos de sistema de informação erick,lucas,ismael e luis.
-Relatório de Desenvolvimento 
- 
+#  Relatório grupo 1 de projeto aplicado 
 
+toda a criação e desenvolvimento da loja e-commerce de roupas do grupo 1 da turma de sistema de informação
 Alunos:  
 
 -Luis Eduardo 
 
 -Lucas Feitosa 
 
--Ismael 
+-Ismael Bernadino
 
--Erick 
+-Erick Lucas
 
  
 
 O projeto é uma criação de um ecommerce de roupas, com objetivo final ter um site que funcione de maneira adequada para essa função. 
 
- 
-
 Metodologia e organização: 
 
- 
-
-* O grupo se comunicou através de mensagens e reuniões online. 
-
- 
-
+* O grupo se comunicou através de mensagens e reuniões online.
+  
 *Os papeis foram definidos da seguinte forma: Lucas Feitosa (Desenvolvimento), Ismael (Prototipação/UX), Luis Eduardo (Requisitos/arquitetura), Erick (Gestão/ Documentação) 
 
- 
 
 *Ferramentas utilizadas:  
 
@@ -40,82 +30,52 @@ GitHub: foi utilizado para a postagem do repositório com todo o processo de con
 
 Sublime: foi o principal programa utilizado para a programação fullstack do site. 
 
+Ia generetiva: o chat gpt free foi utilizado para o auxilio na criação do carrinho de compras do projeto.
+https://chatgpt.com/share/68531ff2-4adc-8010-896b-8ee90a02f105 
  
 
 Desenvolvimento Técnico: 
 
-Tecnologias utilizadas: As linguagens utilizadas para crianção do projeto foram: Html, CSS, Javascript e MySQL 
+Html, CSS, Javascript e MySQL 
 
-Etapas do desenvolvimento: Primeiro foi feito o protótipo pela Ismael, através do Figma, onde ele se inspirou em sites conhecidos como a C&A e Renner. Sites que possuem funcionalidades parecidas. Depois da entrega do protótipo, o Lucas começou a fazer o froentend através do (Sublime), utilizando Html, css e Javascript.  No menu principal, foi adicionado uma barra de pesquisas, um carrinho de compra para itens selecionados e a filtragem dos itens. Ao finalizar o layout, foi necessário implementar o Back-End, houve tentativas de conexão entre o banco de dados e o site html, onde foi usada a variável constante. Pra fazer a parte do armazenamento de dados, usei a classe constante para separar e armazenar a maioria dos caracteres registrados, incluindo o (Nome), (Senha), (Email) e (Telefone). O login foi a mesma coisa, usando o servidor da API como base nesse armazenamento de dados. A condição é que o usuário informe seu e-mail e senha na parte do login, e ao clicar em "Entrar", seus dados serão automaticamente salvos e armazenados no sistema. Na parte do cadastro segue o mesmo baile, você coloca seu nome, e-mail, senha e telefone e automaticamente seus dados ficaram salvos toda vez quando você entrar na sua conta. Acessando a opção "Minhas Informações" você consegue visualizar o que ficou salvo na parte do cadastro. Agora a parte do endereço fica de sua preferência que também ficará salvo no banco. Usamos como referência a FakeStoryAPI para a construção desse banco, juntando as informações de cadastro, login, produtos, carrinho de compra e as demais configurações do 
-site, porém fizemos leves mudanças em relação ao código pra não ficar 
-meio torto. No Back-End foi utilizado o SQL + o JavaScript para registrar o nome do produto/preço dentro do carrinho, isso toda vez quando você adiciona um produto, seu valor ficará armazenado no carrinho e você poderá excluir e comprar como quiser. 
 
- 
+Etapas do desenvolvimento: 
 
- 
-
- 
-
- 
-
-Para a realização do carrinho de compras foi necessário o auxílio de IA: 
-
- 
+Primeiro foi feito o protótipo através do Figma, onde foi inspirado em sites famosos como a C&A e Renner, pois possuem funcionalidades parecidas. 
+Segundo foi a entrega do protótipo, foi feita a marcação com html logo depois o froentend, utilizando css e Javascript. 
+Para o menu principal; foi adicionado uma barra de pesquisas; um carrinho de compra para itens selecionados e a filtragem dos itens. 
+Foi feita uma conexão entre o banco de dados e o site html, onde foi usada variável constante. 
+Para fazer a parte do armazenamento de dados, foi utilizada classe constante para separar e armazenar a maioria dos caracteres registrados, incluindo (Nome), (Senha), (Email) e (Telefone). 
+O login foi usado o servidor da API como base no armazenamento de dados. 
+O usuário deve informar seu e-mail e senha na parte do login, quando for pressionado "Entrar", seus dados serão salvos e armazenados no sistema. 
+Na parte do cadastro deve ser inserido o nome, email, senha, telefone e opcionalmente o endereço.
+Usamos como referência a FakeStoryAPI para a construção desse banco, porém com muitas modificações para o melhor proveito do nosso projeto, 
+Fazendo com que os produtos tenham um id para a compra no carrinho, sendo possivel retirar ou comprar.
 
  
-
- 
-
- 
-
-Imagem 
-
-https://chatgpt.com/share/68531ff2-4adc-8010-896b-8ee90a02f105 
 
 Descrição das funcionalidades desenvolvidas:  
 
-*Carrinho de compras – Itens selecionados se encontram lá 
+*Carrinho de compras – Onde pode ser visto os itens selecionados para a compra. 
 
-*Remoção dos itens do carrinho - remoção dos itens do carrinho 
+*Remoção dos itens do carrinho.
 
-*Filtragem dos itens – Itens filtrados por categoria 
+*Filtragem dos itens – categorias de produtos.
 
-*Cadastro do usuário 
-
- 
+*Cadastro e login do usuário.
 
  
 
-Desenvolvimento Front-End: Experiências Práticas: 
+ 
+
+conhecimento prévio dos participantes pré projeto:
+
+conhecimento de linguagem de marcação HTML5
+conhecimento de logica e programação em JavaScript e CSS3 
+conhecimento de banco de dados em SQL 
 
  
 
-Criação de uma classe 
 
-Criação de um título 
-
-Criação de um paragrafo 
-
-Criação de um ID 
-
-Criação de um botão 
-
-Criação de um link 
-
-Criação de um arquivo em HTML 
-
-Criação de um arquivo em CSS 
-
-Como colocar uma imagem e sua extensão 
-
-Como fazer um Hr 
-
-Como fazer um div 
-
-Como adicionar um texto 
-
-Como fazer um botão com link 
-
-Como fazer o link do HTML com o CSS 
 
   
